@@ -2,9 +2,9 @@ var playlist = {
   TaylorSwift: "Love Story"
 }
 
-function updatePlaylist(obj, artist, song){
-  obj.artist = song
-  return obj
+function updatePlaylist(playlist, artist, song){
+  playlist.artist = song
+  return playlist
 }
 
 function removeFromPlaylist(obj, artist){
