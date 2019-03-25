@@ -1,5 +1,5 @@
 var playlist = {
-  TaylorSwift: "Love Story"
+  
 }
 
 function updatePlaylist(playlist, artist, song){
